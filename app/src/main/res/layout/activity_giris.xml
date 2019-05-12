@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    tools:context=".Giris">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"
+            android:src="@drawable/html" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5sp"
+            android:layout_marginRight="5sp"
+            android:layout_gravity="center"
+            android:textColor="@android:color/holo_red_light"
+            android:text="HTML Nedir ?"
+            android:textSize="30sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5sp"
+            android:layout_marginRight="5sp"
+            android:text=" Günümüz web teknolojlerinde kullanımı yaygınlaşan ve pratik özelikleri sunması açısından kullanışlı olan HTML5’i temel ve orta seviyede sizlere anlatmaya çalışacağım.\n \n
+
+Daha ileri düzeyde tasarımları gerçekleştirmek ve çeşitlendirmek programcılara ve diğer web araçlarını(CSS3, JavaScript vb.) kullanabilme kabiliyetine kalmıştır. HTML5 hakkında düzenlenen makalelerin listesi ve ilgili sayfalara bağlantısı(yayınlananların)  yazının sonunda maddeler halinde gösterilmiştir. \n \n "
+            android:textSize="20sp" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_margin="10dp"
+            android:background="@android:color/background_dark" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5sp"
+            android:layout_marginRight="5sp"
+            android:text="
+
+HTML (Hyper Text Markup Language) internet üzerinde web sayfası oluşturmak için kullanılan bir betik dilidir. HTML dosyaları .html ya da .htm uzantısı ile saklanır. HTML, W3C tarafından standartlaştırılmaktadır. Html, “etiket” ismi verilen çeşitli başlıklardan oluşur.\n \n
+
+HTML, bir programlama dili olarak tanımlanamaz. Zira HTML kodlarıyla kendi başına çalışan bir program yazılamaz. Ancak bu dili yorumlayabilen programlar (ASP, ASP.NET, PHP, JavaScript vb.) aracılığıyla çalışabilen programlar yazılabilir.\n \n
+
+Yani HTML, basitçe web sitelerinin kodlarıdır. Her web sitesinin arka planında kodlar yatar. Kullanıcı siteye girdiğinde tarayıcı bu kodları işler ve anlayabileceği web sayfalarını oluşturur.\n \n
+
+Dilin son sürümü HTML5’tir. HTML5 görselliğin ve pratik web ihtiyaçlarının giderilmesi açısından önemli bir aşama olarak görülmektedir.\n \n
+
+HTML5 halâ geliştirilme aşamasında olsa da günümüz web tasarımcılarının ekseriyeti artık bu yeni sürümü tercih etmektedir.\n \n"
+            android:textSize="20sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5sp"
+            android:layout_marginRight="5sp"
+            android:text="1.1. HTML’ İN TARİHSEL GELİŞİMİ"
+            android:textSize="30sp" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="300dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"
+            android:src="@drawable/gelisim" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5sp"
+            android:layout_marginRight="5sp"
+            android:text="Yukarıdaki görselde html’in geçmişten günümüze gelişimi ve değişimi gösterilmiştir. \n \n
+
+Tarayıcıların (Mozilla Firefox, Google Chrome, Opera, Maxthon vb.) son dönem güncellemeleriyle birlikte kısmi veya çoğunlukla HTML5’i desteklemektedir. Fakat İnternet Explorer 9 ve önceki sürümleri henüz HTML5 destekli bir yapıya sahip değildir. \n \n"
+            android:textSize="20sp" />
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5sp"
+            android:layout_marginRight="5sp"
+            android:text="1.2. HTML GENEL KOD YAPISI"
+            android:textSize="30sp" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="300dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"
+            android:src="@drawable/genel" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5sp"
+            android:layout_marginRight="5sp"
+            android:text="HTML5 ile klasik DİV  vb. yöntemleri temel tasarım kalıbı ele alındığında bir dönüşüm geçirmiştir. Bu yapılar element adını almaktadır artık. Aşağıdaki tasarım şablonlarında bunun farkını açıkça gösterilmektedir. \n \n"
+            android:textSize="20sp" />
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5sp"
+            android:layout_marginRight="5sp"
+            android:text="1.3. HTML5 TASARIM ŞABLONU"
+            android:textSize="30sp" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="300dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"
+            android:src="@drawable/tasarim" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5sp"
+            android:layout_marginRight="5sp"
+            android:text="\n  1.4. HTML5′ de DESTEKLENMEYEN HTML ETİKETLERİ"
+            android:textSize="30sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5sp"
+            android:layout_marginRight="5sp"
+            android:text="HTML5 ile gelen ve artık desteklenmeyen etiketler de mevcut. Her ne kadar kullanılmaya ve tarayıcılar tarafından çalıştırılmaya devam edilse de bazı HTML etiketleri artık HTML5 dünyasında yoklar. Desteklenmeyen bu etiketler aşağıdaki şekilde gösterilmiştir. Bunun yanında tasarımları kolaylaştıracak, renklendirecek, tasarımcılar için kullanışlı olan yeni elementler-etiketler de son sürümle birlikte kullanılmaktadır.  \n"
+            android:textSize="20sp" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="300dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"
+            android:src="@drawable/desteklenmiyen" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5sp"
+            android:layout_marginRight="5sp"
+            android:text="1.5. HTML5 ile GELEN YENİ ÖZELLİKLER (Elementler)"
+            android:textSize="30sp" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="300dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"
+            android:src="@drawable/ozel" />
+
+
+    </LinearLayout>
+
+</ScrollView>
